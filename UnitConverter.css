@@ -1,0 +1,122 @@
+h1 {
+    color: rgb(0, 138, 46);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 350%;
+    margin: 10px 0 50px 0;
+}
+#paragraph {
+    color: rgb(0, 138, 46);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 2px rgb(0, 138, 46);
+    height: 23px;
+    margin: 10px 4px 0 0;
+    background-color:#ffffff;
+    width: 171px;
+    padding: 0 0 0 2px;
+    font-weight: bold;
+}
+.convert {
+    border: solid 2px rgb(0, 138, 46);
+    color: rgb(0, 138, 46);
+    border-radius: 30px;
+    width: 20%;
+    min-width: 80px;
+    max-width: 125px;
+    height: 50px;
+    background-color: #ffffff;
+    font-size: 15px;
+    font-weight: bold;
+}
+#container {
+    margin: 0 0 0 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+body {
+    background-color: rgb(192, 255, 186);
+}
+#input {
+    border: solid 2px rgb(0, 138, 46);
+    height: 20px;
+}
+.select1 {
+    border: solid 2px rgb(0, 138, 46);
+    border-radius: 15px;
+    height: 25px;
+}
+.select2 {
+    border: solid 2px rgb(0, 138, 46);
+    border-radius: 15px;
+    height: 25px;
+    margin: 10px 0 0 0;
+}
+#changeTheme {
+    background-color: transparent;
+    border: none;
+}
+#changeTheme:hover {
+    cursor: pointer;
+}
+.item {
+    flex-wrap: wrap;
+    flex-basis: auto;
+}
+#day {
+    display: none;
+    width: 10%;
+}
+#nightmode {
+    width: 10%;
+    max-width: 125px;
+    min-width: 75px;
+    display: block;
+}
+#result {
+    display: flex;
+}
+.convert:hover {
+    cursor: pointer;
+    background-color: #0c8f00;
+    color: white;
+    border: solid 2px white;
+}
+.select1:hover {
+    cursor: pointer;
+}
+.select2:hover{
+    cursor: pointer;
+}
+#nightmode:hover {
+    filter: opacity(50%);
+}
+.grandezze {
+    border: solid 2px rgb(0, 138, 46);
+    width: 150px;
+    margin: 25px 10px 0 0;
+    color:#085a00;
+    background-color: #ffffff;
+    padding: auto;
+    justify-content: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.grandezze:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    display: inline-block;
+    height: 25px;
+    text-align: center;
+    font-size: 100%;
+    color: rgb(0, 138, 46);
+}
+p {
+    font-weight: lighter;
+    color: rgb(0, 138, 46);
+    background-color: rgba(0, 138, 46, 0.315);
+}
