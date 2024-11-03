@@ -8,7 +8,7 @@ function changeTheme() {
 }
 function convert() {
     const input = document.getElementById("input");
-    const inputValue = parseInt(input.value);
+    const inputValue = Number(input.value);
     const temperatureOne = document.getElementById("1");
     const temperatureOneValue = temperatureOne.value;
     const temperatureTwo = document.getElementById("2");
@@ -24,7 +24,7 @@ function convert() {
         let halfway = inputValue*1;
         paragraph.innerHTML = halfway;
     }
-    let halfwayResult = paragraph.innerHTML;
+    let halfwayResult = Number(paragraph.innerHTML);
     if (temperatureTwoValue === "C2") {
         let result = (halfwayResult-273.15).toFixed(2);
         paragraph.innerHTML = result+"°C";
