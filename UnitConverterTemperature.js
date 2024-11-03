@@ -29,7 +29,7 @@ function convert() {
         let result = (halfwayResult-273.15).toFixed(2);
         paragraph.innerHTML = result+"°C";
     } else if (temperatureTwoValue === "F2") {
-        let result = ((inputValue-273.15)*(9/5)+32).toFixed(2);
+        let result = ((halfwayResult-273.15)*(9/5)+32).toFixed(2);
         paragraph.innerHTML = result+"°F";
     } else if (temperatureTwoValue === "K2") {
         let result = (halfwayResult*1).toFixed(2);
